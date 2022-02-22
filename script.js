@@ -8,7 +8,7 @@ loadImg();
 function loadImg(){
   removeImages();
 
-  const url='https://api.unsplash.com/search/photos/?query='+input.value+'&per_page=9&client_id=tIE1QfRzTRLOa8X--qxcDGsYfT8klYIz0l9AxpXc_Tw';
+  const url='https://api.unsplash.com/search/photos/?query='+input.value+'&per_page=9&client_id=your key';
 
 
   fetch(url)
